@@ -22,7 +22,7 @@ python working_gpt_client.py
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Iamlixinzhao/K-Map-MCP.git
 cd KMapSolver
 ```
 
