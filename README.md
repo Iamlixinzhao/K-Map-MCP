@@ -14,19 +14,8 @@ A comprehensive Karnaugh Map (K-Map) solver that integrates with OpenAI's GPT-4o
 
 ## Quick Start
 
-### Option 1: Interactive Launcher (Recommended)
 ```bash
-python start_gpt_kmap.py
-```
-
-### Option 2: Quick Test Mode
-```bash
-python simple_gpt_test.py
-```
-
-### Option 3: Full MCP Integration
-```bash
-python openai_kmap_client.py
+python working_gpt_client.py
 ```
 
 ## Installation
@@ -52,7 +41,7 @@ OPENAI_API_KEY = "your-api-key-here"
 ### Basic K-Map Solving
 ```
 User: "Help me solve this 2-variable K-Map: [[1, 0], [0, 1]]"
-GPT-4o: Returns simplified Boolean expression and visualization
+GPT-4o: Returns simplified Boolean expression 
 ```
 
 ### Knowledge Queries
